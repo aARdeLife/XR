@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Vision XR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video id="introVideo" src="https://github.com/aARdeLife/spacetimeXR/blob/e0350bdd7778f976d79b44b655ea5d3f7532003e/intro.mp4?raw=true" preload="auto" playsinline autoplay muted></video>
+    <video id="video" autoplay muted playsinline style="display: none;"></video>
+    <canvas id="canvas" style="display: none;"></canvas>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    <script src="app.js"></script>
+</body>
+</html>
